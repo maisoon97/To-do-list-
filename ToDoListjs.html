@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body style="font-family: Roboto Condensed">
+    <div style="direction: ltr;">
+        <!-- center div -->
+        <div style="display: flex;justify-content: center; align-items: center;">
+            <!-- tasks table -->
+            <div class="tasks-table">
+                <!-- header -->
+                <div
+                    style="width: 100%; text-align: center; background-color: blueviolet; padding-top: 8px;padding-bottom: 8px;color: white; ">
+                    <h1 style="display: inline;">To Do list</h1>
+                    <button id="add" class="button-style" style="float: left;margin-left: 8px "><span
+                            class="material-symbols-outlined">
+                            add
+                        </span></button>
+                </div>
+                <!-- //header// -->
+                <!-- tasks -->
+                <div id="tasks" style="padding: 20px;">
+                    <!-- task -->
+                    <div class="task">
+                        <!-- task info -->
+                        <div style="width: 70%; padding-left: 8px;">
+                            <h2> Read Book</h2>
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span><span>19/6/2025</span>
+                            </div>
+                        </div>
+                        <!-- //task info// -->
+                        <!-- task action -->
+                        <div style="display: flex; justify-content: space-between;align-items: center; width: 20%;">
+                            <button id="delete" class="button-style" style="background-color: red; color:white"><span
+                                    class="material-symbols-outlined">
+                                    delete
+                                </span></button>
+                            <button id="check" class="button-style" style="background-color: green; color:white"><span
+                                    class="material-symbols-outlined">
+                                    check
+                                </span></button>
+                            <button class="button-style" style="background-color: blue; color:white"><span
+                                    class="material-symbols-outlined">
+                                    edit
+                                </span></button>
+
+                        </div>
+                        <!-- //task action// -->
+                    </div>
+                    <!-- //task// -->
+                </div>
+                <!-- //tasks //-->
+            </div>
+        </div>
+        <!-- //tasks table// -->
+    </div>
+    <!--// center div// -->
+
+</body>
+
+
+<script src="functions.js"></script>
+
+</html>

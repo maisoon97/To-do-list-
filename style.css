@@ -1,0 +1,35 @@
+    .tasks-table {
+            width: 60%;
+            /* height: 500px; */
+            background-color: rgb(238, 238, 238);
+            margin-top: 50px;
+        }
+
+        .task {
+            display: flex;
+            background-color: white;
+
+            padding: 4px;
+            border-bottom: solid 1px black;
+            transition: box-shadow 0.5s;
+        }
+
+        .done {
+            background-color: rgb(160, 253, 160);
+        }
+
+        .task:hover {
+            box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.847);
+        }
+
+        button {
+            border: none;
+            font-size: 20px;
+            padding: 8px;
+        }
+
+        button.button-style {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
