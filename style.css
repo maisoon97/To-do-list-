@@ -1,9 +1,17 @@
-    .tasks-table {
+        .tasks-table {
             width: 60%;
             /* height: 500px; */
             background-color: rgb(238, 238, 238);
             margin-top: 50px;
-        }
+            }
+        #header{
+            width: 100%; 
+            text-align: center; 
+            background-color: blueviolet; 
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: white;
+            }
 
         .task {
             display: flex;
